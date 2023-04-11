@@ -1,3 +1,4 @@
+Pre-stash state
 sa ome text here.
 more content.
 added three

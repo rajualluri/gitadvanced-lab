@@ -1,3 +1,4 @@
+Pre-stash State
 Change In Master - Conflict
 Some more content
 nothing
