@@ -2,3 +2,4 @@ Change In Master - Conflict
 Some more content
 nothing
 Feature 1 change 1
+Change in Fature - Conflict
