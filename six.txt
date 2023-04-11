@@ -1,2 +1,3 @@
 Special file for feature 01
 Edited in Local for a new conflict.
+Edited in Remote Repository
