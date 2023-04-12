@@ -19,4 +19,10 @@ jobs:
           echo "-----------------"
           echo "Github Context is _${{ github }}_"
           echo "-----------------"
+          echo "-----------------"
+          echo "is _${{ github.sha }}_"
+          echo "Runner Details - Name: [${{ runner.name }} ] "
+          echo "               - OS: [${{ runner.os }} ] "
+          echo "               - Arch: [${{ runner.arch }} ] "
+          echo "-----------------"
 
