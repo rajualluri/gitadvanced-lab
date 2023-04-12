@@ -11,4 +11,4 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install jq
-          sudo apt-get install jq
+          echo '{"fruit":{"name":"apple","color":"green","price":1.20}}' | jq '.'
