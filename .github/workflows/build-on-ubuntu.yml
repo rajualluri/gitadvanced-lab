@@ -15,4 +15,7 @@ jobs:
           echo "-----------------"
           echo "::workflow-command parameter1={data},parameter2={data}::{command value}"
           echo "-----------------"
+          echo "Sha is _${{ github.sha }}_"
+          echo "-----------------"
+
 
