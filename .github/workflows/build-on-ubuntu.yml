@@ -1,0 +1,21 @@
+name: Build on Ubuntu
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3
+      - name: Install jq tool
+        run: |
+          sudo apt-get update
+          sudo apt-get install jq
+          echo '{"fruit":{"name":"apple","color":"green","price":1.20}}' | jq '.'
+          echo "-----------------"
+          echo "::workflow-command parameter1={data},parameter2={data}::{command value}"
+          echo "-----------------"
+          echo "Sha is _${{ github.sha }}_"
+          echo "-----------------"
+
+
