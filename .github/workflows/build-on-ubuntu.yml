@@ -15,7 +15,7 @@ jobs:
           echo "-----------------"
           echo "Event Details - Checkin SHA: [ ${{ github.sha }} ]"
           echo "               - Event Name: [ ${{ github.event_name }} ] "
-          echo "               - Event Name: [ ${{ github.event_name }} ] "
+          echo "               - Event Details: [ ${{ toJSON(github.event) }} ] "
           echo "               - Repo URL: [ ${{ github.repositoryUrl }} ] "
           echo "               - Workflow: [ ${{ github.workflow }} ] "
           echo "Runner Details - Name: [ ${{ runner.name }} ] "
