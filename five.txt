@@ -1,3 +1,4 @@
 Change in Master - Conflict
 Another file into repo.
 Feature 1 change 1
+Action, Action, Action - Github Actions
